@@ -16,6 +16,9 @@ contract Caller {
         addr.call(bytes4(keccak256("storeValue(uint256)")), 100);
     }
 }
+contract Callee {
+sdgjgj
+}
 
 contract Callee {
     function getValue(uint initialValue) returns(uint);
