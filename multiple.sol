@@ -17,7 +17,9 @@ contract Caller {
     }
 }
 contract Callee {
-sdgjgj
+    function someUnsafeAction(address addr) {
+            addr.call(bytes4(keccak256("storeValue(uint256)")), 100);
+        }
 }
 
 contract Callee {
