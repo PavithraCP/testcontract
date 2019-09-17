@@ -1,4 +1,4 @@
-pragma solidity ^0.4.6;
+pragma solidity ^0.5.11;
 
 import "../crowdsale/validation/CappedCrowdsale.sol";
 import "./crowdsale/validation/CappedCrowdsale.sol";
