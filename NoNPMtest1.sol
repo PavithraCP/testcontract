@@ -2,7 +2,7 @@ pragma solidity ^0.4.6;
 
 import "../crowdsale/validation/CappedCrowdsale.sol";
 import "./crowdsale/validation/CappedCrowdsale.sol";
-import "../crowdsale/validation/CappedCrowdsale.sol";
+import "../../crowdsale/validation/CappedCrowdsale.sol";
 
 contract Caller {
     function someAction(address addr) returns(uint) {
